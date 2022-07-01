@@ -14,7 +14,7 @@ async-std = "1.11.0"
 async-trait = "0.1.48"
 futures-lite = "1.12.0"
 rustls-acme = "0.3.0"
-tide-rustls = "0.3.0"
+tide-rustls = { git = "https://github.com/http-rs/tide-rustls", rev = "cbfb61f519238730b4d6318901fe2f2a8bfdb164" }
 tracing = { version = "0.1.34", default-features = false }
 
 [dev-dependencies]
